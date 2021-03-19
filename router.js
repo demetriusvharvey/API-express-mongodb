@@ -6,7 +6,8 @@ let playerModel = require('./players')
 router.get('/', (request, response) => {
     response.json({
         sentence: 'Here are the players info',
-        link: 'http://localhost:3000/players'
+        locallink: 'http://localhost:3000/players',
+        deployedlink: 'https://api-project-ga.herokuapp.com/players'
     })
 })
 
