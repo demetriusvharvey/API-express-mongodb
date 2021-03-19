@@ -4,8 +4,6 @@ This project is a cloud based API with CRUD functionality. You can find general 
 # USAGE
 
 You can access the API from the CLI using GET request.
-
-for example,
 https://api-project-ga.herokuapp.com/players
 
 # Contributing
