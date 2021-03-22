@@ -13,7 +13,7 @@ For PUT requests you must use an ID on the end of the root directory.
 For Delete requests you must use an ID on the end of the root directory.
 
 # Post
-For Post requests you use the root directory and add your key value pairs at the end. The key value pairs should be written out as <key>=<value>
+For Post requests you use the root directory and add your key value pairs at the end. The key value pairs should be written out as key=value
 
 
 # Contributing
