@@ -3,6 +3,7 @@ let mongooseConnectionConfig = {
     useNewUrlParser: true,
     useUnififedTopology: true
 }
+let connectionString = ""
 if (process.env.NODE_ENV === "production") {
     connectionString = process.env.DB_URL
 }
