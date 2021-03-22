@@ -11,6 +11,10 @@ router.get('/', (request, response) => {
     })
 })
 
-router.get('/players', controller.read)
+router.get('/players', controller.readAll)
+router.get('/:id', controller.readById)
+router.post('/',controller.create)
+router.put('/:id', controller.update)
+router.delete('/id', controller.destroy)
 
 module.exports = router
