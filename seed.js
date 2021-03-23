@@ -1,4 +1,4 @@
-let connection = require('./connection')
+require('./connection.js')
 let mongoose = require('mongoose')
 let data = require('./data.json')
 let Player = require('./players')
