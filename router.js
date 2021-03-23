@@ -11,7 +11,7 @@ let playerModel = require('./players')
 //     })
 // })
 
-router.get('/players', controller.readAll)
+router.get('/', controller.readAll)
 router.get('/:id', controller.readById)
 router.post('/',controller.create)
 router.put('/:id', controller.update)
