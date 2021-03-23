@@ -1,9 +1,9 @@
 let express = require('express')
 let router = require('./router')
+let cors = require('cors')
 
 let app = express()
 
-let cors = require('cors')
 
 app.use(cors())
 app.use(express.json())
