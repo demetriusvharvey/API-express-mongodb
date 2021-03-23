@@ -7,6 +7,6 @@ let cors = require('cors')
 
 app.use(cors())
 app.use(express.json())
-app.use('/players',router)
+app.use(router)
 
 module.exports = app

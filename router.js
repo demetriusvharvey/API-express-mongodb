@@ -3,13 +3,7 @@ const controller = require('./controller')
 let router = new express.Router()
 let playerModel = require('./players')
 
-// //router.get('/', (request, response) => {
-//     response.json({
-//         sentence: 'Here are the players info',
-//         locallink: 'http://localhost:3000/players',
-//         deployedlink: 'https://api-project-ga.herokuapp.com/players'
-//     })
-// })
+
 
 router.get('/', controller.readAll)
 router.get('/:id', controller.readById)
