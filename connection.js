@@ -8,7 +8,7 @@ if (process.env.NODE_ENV === "production") {
     connectionString = process.env.DB_URL
 }
 else {
-    connectionString = "mongodb://localhost/players"
+    // connectionString = "mongodb://localhost/players"
 }
 mongoose.connect(connectionString, mongooseConnectionConfig)
 mongoose.connection.on('connected', () => console.log("Connected to database"))
