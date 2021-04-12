@@ -4,7 +4,7 @@ This project is a cloud based API with CRUD functionality. You can find general 
 # USE
 
 You can access the API from the CLI using GET request.
-https://api-project-ga.herokuapp.com/players
+https://api-project-ga.herokuapp.com/
 
 # Put
 For PUT requests you must use an ID on the end of the root directory.
